@@ -14,13 +14,54 @@
 		</div>
 	</header>
 
-	<div class="title">
-		<h1>Tasks</h1>
+	<div class="addtitle">
+		<h1>+Add Project</h1>
+	</div>
+		<div class="addProject">
+		<form id="projectForm" class="form-horizontal">
+			<fieldset>
+			
+			<div class="control-group">
+			<label class="controls-label" for="projectName">Project Name</label>
+	        <div class="controls">
+	        <input type="text" name="projectName" id="projectName">
+	        </div>
+	        </div>
+	        
+	        <div class="control-group">
+	        <label class="controls-label" for="projectDesc">Project Description</label>
+	        <div class="controls">
+	        <textarea rows="4" cols="50" name="projectDesc" form="projectForm">
+Enter text here...</textarea>
+	        </div>
+	        </div>
+	        
+	        <div class="control-group">
+	        <label class="controls-label" for="dueDate">Due Date</label>
+	        <div class="controls">
+	        <input type="text" name="dueDate" id="dueDate">
+	        </div>
+	        </div>
+
+	        <div class="control-group">
+	        <label class="controls-label" for="status">Status</label>
+	        <div class="controls">
+	        <input type="text" class="status" id="status">
+	        </div>
+	        </div>
+
+	        <div class="control-group">
+	        <label class="controls-label" for="priority">Priority</label>
+	        <div class="controls">
+	        <input type="text" class="priority" id="priority">
+	        </div>
+	        </div>
+	        <a href="project.html">cancel</a>
+	        <input type="submit" value="Add" class="signupBtn">
+	        </fieldset>
+        </form>
 	</div>
 
-	<div class="projectForm">
-		
-	</div>
 	</div>
 
 </body>

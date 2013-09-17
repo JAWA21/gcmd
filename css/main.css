@@ -186,5 +186,30 @@ header a {
 /*---------Edit Task---------*/
 
 /*---------Add Project Page---------*/
+.addtitle {
+	margin-top: 10px;
+	background-color: #d8d8d4;
+	padding: 5px;
+	max-width: 300px;
+}
+
+.addtitle h1 {
+	color: #393C3A;
+	margin-left: 20px;
+}
+
+.addProject {
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.addProject input {
+	display: inline;
+}
+
+.block {
+	display: block;
+}
 
 /*---------Add Task Page---------*/

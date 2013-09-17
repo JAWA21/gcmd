@@ -14,57 +14,54 @@
 		</div>
 	</header>
 
-	<div class="title">
-		<h1>Tasks</h1>
+	<div class="addtitle">
+		<h1>+Add Task</h1>
 	</div>
 
-	<div class="lSide-content">
-		<form class="form-search">
-			<div class="input-append">
-				<input type="text" class="span2 search-query" placeholder="Search...">
-				<!-- <button type="submit" class="btn">Search</button> -->
-			</div>
-		</form>
+<div class="addProject">
+		<form id="projectForm" class="form-horizontal">
+			<fieldset>
+			
+			<div class="control-group">
+			<label class="controls-label" for="projectName">Task Name</label>
+	        <div class="controls">
+	        <input type="text" name="projectName" id="projectName">
+	        </div>
+	        </div>
+	        
+	        <div class="control-group">
+	        <label class="controls-label" for="projectDesc">Task Description</label>
+	        <div class="controls">
+	        <textarea rows="4" cols="50" name="projectDesc" form="projectForm">
+Enter text here...</textarea>
+	        </div>
+	        </div>
+	        
+	        <div class="control-group">
+	        <label class="controls-label" for="dueDate">Due Date</label>
+	        <div class="controls">
+	        <input type="text" name="dueDate" id="dueDate">
+	        </div>
+	        </div>
 
-		<div class="taskList">
-			<ul>
-				<li>Yeti Website</li>
-				<li>Bridgewater</li>
-				<li>Two Tea</li>
-			</ul>
-		</div>
-	</div>
+	        <div class="control-group">
+	        <label class="controls-label" for="status">Status</label>
+	        <div class="controls">
+	        <input type="text" class="status" id="status">
+	        </div>
+	        </div>
 
-	<div class="projectDetails">
-		<div class="accordion" id="accordion2">
-		  <div class="accordion-group">
-		    <div class="accordion-heading">
-		      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-		        Yeti Website
-		      </a>
-		    </div>
-		    <div id="collapseOne" class="accordion-body collapse in">
-		      <div class="accordion-inner">
-		        Once heard a wise man say there are no perfect men. Only perfect intentions. Let me tell you something my friend. hope is a dangerous thing. Hope can drive a man insane. Well, what is it today? more spelunking? Rehabilitated?
-				Well, now let me see. You know, i don't have any idea what that means.
-		      </div>
-		    </div>
-		  </div>
-		  <div class="accordion-group">
-		    <div class="accordion-heading">
-		      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-		        Bridgewater
-		      </a>
-		    </div>
-		    <div id="collapseTwo" class="accordion-body collapse">
-		      <div class="accordion-inner">
-		        Anim pariatur cliche...
-		      </div>
-		    </div>
-		  </div>
-		</div>
+	        <div class="control-group">
+	        <label class="controls-label" for="priority">Priority</label>
+	        <div class="controls">
+	        <input type="text" class="priority" id="priority">
+	        </div>
+	        </div>
+	        <a href="project.html">cancel</a>
+	        <input type="submit" value="Add" class="signupBtn">
+	        </fieldset>
+        </form>
 	</div>
-</div>
 
 </body>
 </html>
